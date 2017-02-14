@@ -1,13 +1,27 @@
-.av-table-vinho-col-codigo, .av-table-vinho-col-icons{
+.av-table-vinho-col-codigo, .av-table-vinho-col-icons {
 	width: 60px;
 	text-align: center
 }
 
-.av-table-vinho-col-tipo{
+.av-table-vinho-col-tipo {
 	width: 100px;
 }
 
-.av-table-vinho-col-preco{
+.av-table-vinho-col-preco {
 	width: 150px;
 	text-align: right;
+}
+
+.login-page {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+	min-width: 200px;
+	max-width: 400px;
+	padding: 40px;
 }
