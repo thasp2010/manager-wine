@@ -16,5 +16,10 @@ public class SegurancaController {
 			return "login";
 		
 	}
+	
+	@RequestMapping("/")
+	public String aut(){
+		return "redirect:/login";		
+	}
 
 }
